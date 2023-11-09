@@ -1,0 +1,129 @@
+* {
+    overflow: auto;
+}
+
+body{
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+
+
+p.cl {background-color: black;
+color:white;
+display:inline-block;
+
+margin-top: -12px;
+align: center;
+padding: 10px 20px;
+margin-bottom: 0px;
+font-size: 22px;
+font-weight: bold;
+
+
+}
+ 
+div.content{background-color: white;
+    margin-bottom:5px;
+margin:  40px 10% 80px 10% ;
+padding: 0px 30px 30px 30px;
+text-align:center;
+
+min-width:350px;
+box-shadow:0px 0px 5px 5px rgba(17, 0, 0, 0.2);
+overflow:auto;
+
+}
+p.start{
+    
+    text-align: center;
+    max-width: 400px;
+    text-align:center;
+    display: inline-block;   
+}
+div.cent {
+
+    text-align: center;
+    margin-bottom: 0px;
+    
+
+}
+div.seperater { height: 1px;
+               width: 100px;
+            background-color:black;
+          margin-left: auto;   
+        margin-right:auto;
+        }
+        h1.start{  
+            align:center;
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+        .im{width:100%;
+         display:block;
+      object-fit: cover;   
+      min-height: 200px;
+      background-color: lightgray;
+    }
+        div.info { position:relative; 
+        }
+        table.tab{ position:absolute;
+           bottom:0px; width: 100%;
+           background-color: #6c829dc0;
+           height:70px;
+          
+        }
+        div.col1{
+        
+        display: inline-block;
+        margin-right:10%;
+        }
+div.col2{
+   /* background-color: lightblue;*/
+    float:right
+    }
+    div.col1,div.col2{
+        width:45%;
+        
+    }
+    div.he h2 { 
+   text-align:center;
+  text-transform: uppercase;
+  border-bottom:5px solid #6C829D; 
+  font-size: 15px;
+  padding: 5px;
+    }
+    div.ingre p{
+      border:1px solid lightgray;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 4px;
+      padding: 8px opx;
+      margin-bottom: 1px;
+    }
+    table.cir p.number {
+        background-color:#6C829D ;
+        font-size: 14px;
+        font-weight: bold;
+        width:25px;
+        height:25px;
+        text-align: center;
+        padding-top: 4px;
+        box-sizing:border-box;
+        border-radius: 50%;
+    }
+    table.cir  p.ins {
+
+        background-color: aqua;
+    padding-left: 10px;
+padding-bottom: 10px; 
+font-size: 14px; 
+margin-top: 2px;
+margin-bottom: 2px;  }
+
+table.cir td {
+    vertical-align: top;
+}
+table.cir tr {
+
+    height: 14px;
+}
