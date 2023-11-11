@@ -23,12 +23,12 @@ font-weight: bold;
 }
  
 div.content{background-color: white;
-    margin-bottom:5px;
-margin:  40px 10% 80px 10% ;
-padding: 0px 30px 30px 30px;
+    margin-bottom:2px;
+margin:  20px 8px 30px 8px ;
+padding: 0px 10px 30px 10px;
 text-align:center;
 
-min-width:350px;
+
 box-shadow:0px 0px 5px 5px rgba(17, 0, 0, 0.2);
 overflow:auto;
 
@@ -66,20 +66,21 @@ div.seperater { height: 1px;
     }
         div.info { position:relative; 
         }
-        table.tab{ position:absolute;
+        table.tab { position:absolute;
            bottom:0px; width: 100%;
            background-color: #6c829dc0;
            height:70px;
-          
+                         
         }
         div.col1{
         
         display: inline-block;
-        margin-right:10%;
+        
         }
 div.col2{
    /* background-color: lightblue;*/
-    float:right
+    margin-left:auto;
+    margin-right:auto;
     }
     div.col1,div.col2{
         width:45%;
@@ -126,4 +127,45 @@ table.cir td {
 table.cir tr {
 
     height: 14px;
+}
+/* this below code is for desktop view */
+@media only screen and (min-width: 768px) {
+    div.content {
+        background-color: white;
+        margin-bottom:5px;
+    margin:  40px 10% 80px 10% ;
+    padding: 0px 30px 30px 30px;
+    text-align:center;
+    
+    min-width:350px;
+    }
+    
+    div.col1{
+        
+        display: inline-block;
+        margin-right:10%;
+        }
+div.col2{
+   /* background-color: lightblue;*/
+    float:right
+    }
+    div.col1,div.col2{
+        width:45%;
+        
+    }
+    div.he h2 { 
+   text-align:center;
+  text-transform: uppercase;
+  border-bottom:5px solid #6C829D; 
+  font-size: 15px;
+  padding: 5px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+  div.content{background-color: white;
+width:650px;
+margin-left: auto;
+margin-right: auto;
+  }
 }
